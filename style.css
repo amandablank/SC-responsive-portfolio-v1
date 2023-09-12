@@ -7,15 +7,12 @@
 
 body {
   margin: 60px auto;
+  padding-top: 100px;
   max-width: 1920px;
 }
 
 .container {
   max-width: 1320px;
-}
-
-.hero {
-  padding-top: 80px;
 }
 
 h1,
@@ -51,7 +48,7 @@ p {
   display: flex;
   margin-top: 20px;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .navigation-links a {
@@ -83,6 +80,7 @@ p {
 
 .about-paragraphs p {
   margin: 10px;
+  font-size: 24px;
 }
 
 .email-link {
@@ -110,4 +108,42 @@ p {
 h1.about-me {
   margin-top: 45px !important;
   padding-top: 60px;
+}
+
+header {
+  margin: 40px 0;
+  padding: 80px;
+}
+
+header .contact-box {
+  background: var(--primary-color);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
+}
+
+header .email-link {
+  text-decoration: none;
+  color: var(--terciary-color);
+  font-size: 34px;
+  text-align: center;
+}
+
+header .email-link:hover {
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+header .social-links a {
+  margin: 0 24px;
+  color: var(--terciary-color);
+  font-size: 40px;
+}
+
+header .social-links a:hover {
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
